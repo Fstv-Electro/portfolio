@@ -1,0 +1,35 @@
+.bio {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.bio__position {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bio__name {
+    font-size: 44px;
+    margin-bottom: 18px;
+}
+
+.bio__shortinfo {
+    text-align: center;
+    width: 220px;
+
+    @media screen and (min-width: 480px) {
+        width: 700px;
+        max-width: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 1000px;
+        max-width: 100%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1000px;
+        max-width: 100%;
+        text-align: start;
+    }
+}

@@ -1,0 +1,128 @@
+.sidebar {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 370px;
+    margin-left: 0;
+    margin-right: 0;
+    
+
+    background-color:#1E2939;
+
+    @media screen and (max-width: 480px) {
+        width: 480px;
+        max-width: 100%;
+    }
+}
+
+.sidebar_photo {
+    width: 370px;
+    margin-bottom: 32px;
+
+}
+
+        // Common
+
+.sidebar__title {
+    font-size: 28px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    color: var(--white-color);
+}
+
+
+.sidebar__item {
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-left: 32px;
+    font-size: 16px;
+    list-style: disc;
+
+}
+
+.sidebar__item::marker {
+    color: var(--accent);
+}
+
+        // Contacts
+
+.sidebar__contacts {
+    width: 370px;
+    max-width: 100%;
+}
+
+
+
+.sidebar__contact-list {
+    color: var(--white-color);
+    margin-left: 5px;
+    margin-bottom: 24px;
+}
+
+.sidebar__contact-item {
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.sidebar__contacts-links {
+    color: var(--white-color);
+}
+
+
+.sidebar__social {
+    display: flex;
+}
+
+.sidebar__social-item {
+
+    width: 32px;
+    height: 32px;
+    margin-left: 24px;
+}
+
+        // SVG  USE
+
+.sidebar__svg {
+    height: 24px;
+    color: var(--white-color);
+}
+
+.sidebar__use {
+    fill: currentColor;
+}
+
+
+            // TECH skills
+
+.sidebar__tech {
+    width: 370px;
+    max-width: 100%;
+}
+
+.sidebar__tech-list {
+    color: var(--white-color);
+    margin-bottom: 24px;
+}
+
+.sidebar__tech-item {
+
+}
+
+
+            // SOFT skills
+
+.sidebar__soft {
+    width: 370px;
+    max-width: 100%;
+}
+
+.sidebar__soft-list {
+    color: var(--white-color);
+    margin-bottom: 24px;
+}
+
+.sidebar__soft-item {
+
+}

@@ -1,0 +1,37 @@
+.projects {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.projects__title {
+    margin-bottom: 18px;
+}
+
+.projects__list {
+    margin-left: 10px;
+}
+
+.projects__item {
+    margin-bottom: 16px;
+}
+
+.projects__name {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.projects__item-list {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.projects__item__descr {
+    margin-bottom: 10px;
+}
+
+.projects__item__link {
+    @media screen and (max-width: 480px) {
+        max-width: 480px;
+    }
+}

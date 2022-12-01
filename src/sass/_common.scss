@@ -7,24 +7,22 @@ html {
 }
 
 .container {
-    width: 320px;
-    max-width: 100vw;
-
+    max-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 
     @media screen and (min-width: 480px) {
-        width: var(--mobile);
+        max-width: var(--mobile);
     }
 
     @media screen and (min-width: 768px) {
-        width: var(--tablet);
+        max-width: var(--tablet);
     }
     
     @media screen and (min-width: 1200px) {
-        width: var(--desktop);
+        max-width: var(--desktop);
     }
 }
 
@@ -34,6 +32,9 @@ body {
     font-size: 18px;
     line-height: 1.22;
     color: #414141;
+    background-color: #F5F7FA;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,

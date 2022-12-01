@@ -2,3 +2,9 @@
 @import './projects.scss';
 @import './education.scss';
 @import './aside.scss';
+
+
+.page-1 {
+    position: relative;
+    width: calc(1200px - 370px);
+}

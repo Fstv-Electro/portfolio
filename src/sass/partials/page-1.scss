@@ -6,5 +6,6 @@
 
 .page-1 {
     position: relative;
+    z-index: -1;
     width: calc(1200px - 370px);
 }

@@ -16,6 +16,7 @@
 
 .progress__name {
     margin-bottom: 18px;
+    color: #0f0e0e;
 }
 
 .progress__module-list {
@@ -23,6 +24,12 @@
 }
 
 .progress__module-item {
+    margin-left: 5px;
     margin-bottom: 10px;
+    list-style: disc;
 }
 
+
+.progress__module-item::marker {
+    color: var(--accent);
+}

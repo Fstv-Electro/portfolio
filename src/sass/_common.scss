@@ -1,1 +1,74 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 320px;
+    max-width: 100vw;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+        width: var(--mobile);
+    }
+
+    @media screen and (min-width: 768px) {
+        width: var(--tablet);
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: var(--desktop);
+    }
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--link-color);
+
+}
+
+.title {
+    font-weight: 500;
+    font-style: 32px;
+    line-height: 1.22;
+    margin-bottom: 28px;
+}

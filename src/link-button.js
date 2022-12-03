@@ -5,11 +5,6 @@ refs = {
   page2El: document.querySelector('#page-2'),
 };
 
-console.log(refs.pageLink1El);
-console.log(refs.pageLink2El);
-console.log(refs.page1El.style.transform);
-console.log(refs.page2El);
-
 refs.pageLink2El.addEventListener('click', onLinkButtonPage1);
 
 refs.pageLink1El.addEventListener('click', onLinkButtonPage2);

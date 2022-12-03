@@ -1,0 +1,2 @@
+var e;e=JSON.parse('[{"name":"html5, css3","group":"https://titotrapatonni.github.io/ice-cream-code-ninjas/, https://fstv-electro.github.io/donut-project/","single":""},{"name":"javascript","group":"","single":""},{"name":"React","group":"","single":""},{"name":"Node.js","group":"","single":""},{"name":"typescript","group":"","single":""}]');const o=Object.values(Object.values(e));console.log(void o.map((e=>{console.log("WHAT INSIDE",e.name),""===e.group&&""===e.single&&console.log("I'M EMPTY")})));
+//# sourceMappingURL=index.a83a723b.js.map

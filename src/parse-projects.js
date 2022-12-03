@@ -1,15 +1,57 @@
-import './project-list.json';
 let Projects = require('./project-list.json');
+const projectEl = document.querySelector('.projects__list');
 
 const objectAll = Object.values(Object.values(Projects));
 
 function markupProjects() {
-  objectAll.map(cat => {
-    console.log('WHAT INSIDE', cat.name);
-    if (cat.group === '' && cat.single === '') {
-      console.log("I'M EMPTY");
-    }
-  });
+  let markupAll = objectAll
+    .map(cat => {
+      //   console.log('name category', cat.name);
+      let groupValue = cat.group;
+      let singleValue = cat.single;
+      let markupSingle = singleValue
+        .split(',')
+        .map(value => {
+          if (value === '') {
+            return;
+          }
+          return `<li>
+            <a href="${value}" class="projects__item__link link"
+              >${value}</a
+            >
+          </li>`;
+        })
+        .join('');
+      let markupGroup = groupValue
+        .split(',')
+        .map(value => {
+          if (value === '') {
+            return;
+          }
+          return `<li>
+            <a href="${value}" class="projects__item__link link"
+              >${value}</a
+            >
+          </li>`;
+        })
+        .join('');
+      let markupProject;
+      if (cat.group === '' && cat.single === '') {
+        markupProject = `<li class="projects__item">
+        <p class="projects__name">${cat.name}</p></li>`;
+        return markupProject;
+      }
+      markupProject = `<li class="projects__item">
+        <p class="projects__name">${cat.name}</p><ul class="projects__item-list list">
+          <li><p class="projects__item__descr">Group projects:</p></li>${markupGroup}</ul><ul class="projects__item-list list">
+          <li><p class="projects__item__descr">Single projects:</p></li>${markupSingle}</ul></li>`;
+      //   console.log(markupProject);
+      return markupProject;
+    })
+    .join('');
+  projectEl.insertAdjacentHTML('beforeend', markupAll);
+
+  //   console.log("IT'S all MARKUP", markupAll);
 }
 
-console.log(markupProjects());
+markupProjects();

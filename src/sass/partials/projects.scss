@@ -18,6 +18,7 @@
 .projects__name {
     margin-bottom: 10px;
     font-weight: 500;
+    color: #1b1a1a;
 }
 
 .projects__item-list {
@@ -27,11 +28,18 @@
 }
 
 .projects__item__descr {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .projects__item__link {
+    margin-left: 10px;
     @media screen and (max-width: 480px) {
         max-width: 480px;
     }
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 }

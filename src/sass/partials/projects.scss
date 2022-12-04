@@ -12,7 +12,10 @@
 }
 
 .projects__item {
-    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // margin-bottom: 10px;
 }
 
 .projects__name {
@@ -28,7 +31,7 @@
 }
 
 .projects__item__descr {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .projects__item__link {

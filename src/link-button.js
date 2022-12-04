@@ -12,7 +12,7 @@ refs.pageLink1El.addEventListener('click', onLinkButtonPage2);
 function onLinkButtonPage1() {
   changePage(refs.pageLink1El, refs.pageLink2El);
   refs.page1El.style.transform = 'translateX(-150%)';
-  refs.page2El.style.transform = 'translateX(50%)';
+  refs.page2El.style.transform = 'translateX(45%)';
 }
 
 function onLinkButtonPage2() {

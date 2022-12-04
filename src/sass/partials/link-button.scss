@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 1;
     width: calc(1200px - 370px);
     margin-left: 32px;
     margin-top: 18px;
@@ -86,20 +87,7 @@
 
 .page-1-link,
 .page-2-link {
+    padding: 0 8px;
     border: none;
     outline: none;
 }
-
-// .page-1.active {
-//     margin-left: 10px;
-//     margin-right: auto;
-//     transform: translateX(-150%);
-//     transition: transform 500ms ease-in-out;
-// }
-
-// .page-2.active {
-//     margin-left: 10px;
-//     margin-right: auto;
-//     transform: translateX(50%);
-//     transition: transform 500ms ease-in-out;
-// }

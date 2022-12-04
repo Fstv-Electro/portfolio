@@ -15,11 +15,11 @@ function markupProjects() {
           if (value === '') {
             return;
           }
-          return `<li>
+          return `
             <a href="${value}" class="projects__item__link link"
               >${value}</a
             >
-          </li>`;
+          `;
         })
         .join('');
       let markupGroup = groupValue
@@ -28,11 +28,11 @@ function markupProjects() {
           if (value === '') {
             return;
           }
-          return `<li>
+          return `
             <a href="${value}" class="projects__item__link link"
               >${value}</a
             >
-          </li>`;
+          `;
         })
         .join('');
       let markupProject;
@@ -42,9 +42,9 @@ function markupProjects() {
         return markupProject;
       }
       markupProject = `<li class="projects__item">
-        <p class="projects__name">${cat.name}</p><ul class="projects__item-list list">
-          <li><p class="projects__item__descr">Group projects:</p></li> ${markupGroup} </ul><ul class="projects__item-list list">
-          <li><p class="projects__item__descr">Single projects:</p></li> ${markupSingle} </ul></li>`;
+        <p class="projects__name">${cat.name}</p>
+          <p class="projects__item__descr">Group projects:</p> ${markupGroup} 
+          <p class="projects__item__descr">Single projects:</p> ${markupSingle} </li>`;
       //   console.log(markupProject);
       return markupProject;
     })

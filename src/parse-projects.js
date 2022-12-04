@@ -51,7 +51,7 @@ function markupProjects() {
     .join('');
   projectEl.insertAdjacentHTML('beforeend', markupAll);
 
-  console.log("IT'S all MARKUP", markupAll);
+  // console.log("IT'S all MARKUP", markupAll);
 }
 
 markupProjects();

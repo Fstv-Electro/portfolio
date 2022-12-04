@@ -1,0 +1,178 @@
+[
+    {
+        "modules": "Basics of HTML. Tags, attributes, semantics.",
+        "status": "done"
+    },
+    {
+        "modules": "Fundamentals of CSS. Selectors, color, text design, font.",
+        "status": "done"
+    },
+    {
+        "modules": "Block panel. Flexbox.",
+        "status": "done"
+    },
+    {
+        "modules": "Pricing of elements. Transformation. Transitions and animations.",
+        "status": "done"
+    },
+    {
+        "modules": "Forms.",
+        "status": "done"
+    },
+    {
+        "modules": "Sensitive layout, sensitive graphics.",
+        "status": "done"
+    },
+    {
+        "modules": "Variables and types. Branching. Cycles.",
+        "status": "done"
+    },
+    {
+        "modules": "Arrays. Functions.",
+        "status": "done"
+    },
+    {
+        "modules": "Iterative methods of arrays.",
+        "status": "done"
+    },
+    {
+        "modules": "Keyword this. Prototypes and classes.",
+        "status": "done"
+    },
+    {
+        "modules": "DOM and events.",
+        "status": "done"
+    },
+    {
+        "modules": "Patterns and optimization of events.",
+        "status": "done"
+    },
+    {
+        "modules": "Infrastructure projects. Web storage.",
+        "status": "done"
+    },
+    {
+        "modules": "Asynchrony and Date. Promises.",
+        "status": "done"
+    },
+    {
+        "modules": "Interaction with the backend.",
+        "status": "done"
+    },
+    {
+        "modules": "CRUD. Asynchronous functions.",
+        "status": "done"
+    },
+    {
+        "modules": "Familiarization with React. JSX. Props. Collection.",
+        "status": "in-progress"
+    },
+    {
+        "modules": "Stylization.",
+        "status": "soon"
+    },
+    {
+        "modules": "Events. State.",
+        "status": "soon"
+    },
+    {
+        "modules": "Forms.",
+        "status": "soon"
+    },
+    {
+        "modules": "Life cycle.",
+        "status": "soon"
+    },
+    {
+        "modules": "Working with API.",
+        "status": "soon"
+    },
+    {
+        "modules": "React hooks part 1.",
+        "status": "soon"
+    },
+    {
+        "modules": "React hooks part 2.",
+        "status": "soon"
+    },
+    {
+        "modules": "Navigation from the React Router application.",
+        "status": "soon"
+    },
+    {
+        "modules": "Navigation and code splitting.",
+        "status": "soon"
+    },
+    {
+        "modules": "Condition management. Basics of Redux.",
+        "status": "soon"
+    },
+    {
+        "modules": "Reduce redux boilerplate.",
+        "status": "soon"
+    },
+    {
+        "modules": "Asynchronous Redux.",
+        "status": "soon"
+    },
+    {
+        "modules": "Selectors and memoization.",
+        "status": "soon"
+    },
+    {
+        "modules": "Registration. Login. Refresh.",
+        "status": "soon"
+    },
+    {
+        "modules": "Private and public routes.",
+        "status": "soon"
+    },
+    {
+        "modules": "Basics of Node.js",
+        "status": "soon"
+    },
+    {
+        "modules": "Creating a console application.",
+        "status": "soon"
+    },
+    {
+        "modules": "Basics of Express.",
+        "status": "soon"
+    },
+    {
+        "modules": "CRUD in Express.",
+        "status": "soon"
+    },
+    {
+        "modules": "MongoDB and Mongoose.",
+        "status": "soon"
+    },
+    {
+        "modules": "Schemes and methods of Mongoose. Deployment on Heroku.",
+        "status": "soon"
+    },
+    {
+        "modules": "Authentication.",
+        "status": "soon"
+    },
+    {
+        "modules": "Authentication.",
+        "status": "soon"
+    },
+    {
+        "modules": "Work with the images.",
+        "status": "soon"
+    },
+    {
+        "modules": "Tests. Modular testing.",
+        "status": "soon"
+    },
+    {
+        "modules": "Mail. Docker.",
+        "status": "soon"
+    },
+    {
+        "modules": "Web sockets.",
+        "status": "soon"
+    }
+]

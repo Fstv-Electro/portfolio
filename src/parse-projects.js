@@ -43,15 +43,15 @@ function markupProjects() {
       }
       markupProject = `<li class="projects__item">
         <p class="projects__name">${cat.name}</p><ul class="projects__item-list list">
-          <li><p class="projects__item__descr">Group projects:</p></li>${markupGroup}</ul><ul class="projects__item-list list">
-          <li><p class="projects__item__descr">Single projects:</p></li>${markupSingle}</ul></li>`;
+          <li><p class="projects__item__descr">Group projects:</p></li> ${markupGroup} </ul><ul class="projects__item-list list">
+          <li><p class="projects__item__descr">Single projects:</p></li> ${markupSingle} </ul></li>`;
       //   console.log(markupProject);
       return markupProject;
     })
     .join('');
   projectEl.insertAdjacentHTML('beforeend', markupAll);
 
-  //   console.log("IT'S all MARKUP", markupAll);
+  console.log("IT'S all MARKUP", markupAll);
 }
 
 markupProjects();

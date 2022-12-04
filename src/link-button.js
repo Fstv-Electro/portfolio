@@ -1,4 +1,4 @@
-refs = {
+const refs = {
   pageLink1El: document.querySelector('.page-1-link'),
   pageLink2El: document.querySelector('.page-2-link'),
   page1El: document.querySelector('#page-1'),
